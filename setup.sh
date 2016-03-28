@@ -1,6 +1,7 @@
 echo installing dependencies
 pip install -U textblob
 python -m textblob.download_corpora
+pip install beautifulsoup4
 npm install
 npm install -g gulp
 echo dependencies successfully installed!

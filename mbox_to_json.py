@@ -7,8 +7,8 @@ import quopri
 import json
 from BeautifulSoup import BeautifulSoup
 
-MBOX = "Sent.mbox"
-OUT_FILE = "sent.json"
+MBOX = "data/Sent.mbox"
+OUT_FILE = "data/sent_mail_data.json"
 
 def cleanContent(msg):
 
