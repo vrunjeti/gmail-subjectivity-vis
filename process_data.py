@@ -4,7 +4,7 @@ from dateutil import parser
 import time
 
 # Change this to your name and email
-NAME_EMAIL = 'Varun Munjeti <vrunjeti@gmail.com>'
+NAME_EMAIL = 'First Last <username@email.com>'
 
 INPUT_FILE = 'data/sent_mail_data.json'
 WRITE_FILE = 'data/mail_data_formatted.json'
