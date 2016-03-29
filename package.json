@@ -1,5 +1,5 @@
 {
-  "name": "fb-sentiment-vis",
+  "name": "gnail-subjectivity-vis",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vrunjeti/fb-sentiment-vis.git"
+    "url": "git+https://github.com/vrunjeti/gmail-subjectivity-vis.git"
   },
   "author": "Varun Munjeti",
   "bugs": {
-    "url": "https://github.com/vrunjeti/fb-sentiment-vis/issues"
+    "url": "https://github.com/vrunjeti/gmail-subjectivity-vis/issues"
   },
-  "homepage": "https://github.com/vrunjeti/fb-sentiment-vis#readme",
+  "homepage": "https://github.com/vrunjeti/gmail-subjectivity-vis#readme",
   "dependencies": {
     "es6-shim": "^0.35.0",
     "gulp": "^3.9.1",
