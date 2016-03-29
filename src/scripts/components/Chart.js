@@ -1,6 +1,6 @@
 import React from 'react'
 import { render } from 'react-dom'
-import { AreaChart } from 'react-d3'
+import { ScatterChart } from 'react-d3'
 import request from 'superagent'
 
 export default class Chart extends React.Component {
@@ -12,7 +12,7 @@ export default class Chart extends React.Component {
   }
 
   componentDidMount() {
-    request.get('./../../../data/mail_data_processed_2.json')
+    request.get('./../../../data/mail_data_processed.json')
       .then(res => {
         this.setState({
           mailData: [{
@@ -32,7 +32,7 @@ export default class Chart extends React.Component {
     return (
       <div className="chart-container">
         <div className="filler"></div>
-        { isDataPopulated && <AreaChart
+        { isDataPopulated && <ScatterChart
           data={mailData}
           width={800}
           height={800}
